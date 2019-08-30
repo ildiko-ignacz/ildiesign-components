@@ -4,8 +4,8 @@
   "description": "ildiesign sass components",
   "main": "main.scss",
   "scripts": {
-    "build": "sass components/main.scss build/main.css",
-    "watch": "sass --watch components/main.scss build/main.css"
+    "build": "sass components/__main.scss build/main.css",
+    "watch": "sass --watch components/__main.scss build/main.css"
   },
   "author": "Ildiko Gaspar",
   "license": "ISC"
