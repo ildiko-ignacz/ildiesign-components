@@ -1,0 +1,38 @@
+
+/** ==================================== Buttons ==================================== */
+
+
+.mobile-menu-icon {
+  height: 70px;
+  width: 20px;
+  background: url("../../assets/img/menu-icon.svg") no-repeat center;
+  float: right;
+}
+
+.close-btn {
+  width: 40px;
+  height: 40px;
+  background: $shape-bg-color;
+  position: relative;
+  border-radius: 25px;
+  cursor: pointer;
+
+  &::after {
+    width: 40px;
+    height: 40px;
+    content: "";
+    background: url("../../assets/img/close-icon-dark.svg") no-repeat center;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &.active, &:hover {
+
+    &::after {
+      opacity:1;
+    }
+  }
+}

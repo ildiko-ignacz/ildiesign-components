@@ -1,36 +1,26 @@
 
-//------------------ Font Colors //
+//------------------ Main Colors //
 
-$dark-color: #202842;
+$default-color: #242E4C;
 
-$blue-color: #3457DC;
+$secondary-color: #7D7A9E;
 
-$dark-blue-color: #2D4DC8;
+$pink: #F775C1;
 
 $grey-color: #5D698D;
 
-$light-purple-color: #DCDFF1;    // used for border in special //
+$border-color: #EBEBF2;    // used for border in special //
 
-$extra-light-purple-color: #F7F9FD;
+$shape-bg-color: #F7F7FC;
 
-$purple-color: #687DCF;
-
-$red-color: #EA4D67;
-
-$orange-color: #F4A10D;
-
-$green-color: #90CF02;
-
-//------------------ Shape | UI Elements Colors //
-
-$blue-color: #3457DC;
+$accessory-color: #BBB9D1;
 
 
 
-$purple-color: #869FFD;
+//------------------ Gradients //
 
-$light-purple-color: #DCDFF1;
+$pink-gradient: linear-gradient(90deg, #BA81FF 0%, #FF6A95 99%);
 
+$light-pink-gradient: linear-gradient(90deg, #F073C8 0%, #FF6A95 99%);
 
-
-
+$green-gradient: linear-gradient(90deg, #68E4BC 0%, #4AD0D1 99%);
